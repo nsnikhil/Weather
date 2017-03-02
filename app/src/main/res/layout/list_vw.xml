@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/touch_selector"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/frag_list"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:layout_height="match_parent"></ListView>
+
+    <ImageView
+        android:layout_width="256dp"
+        android:src="@drawable/error"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/error"
+        android:layout_height="256dp" />
+
+</RelativeLayout>

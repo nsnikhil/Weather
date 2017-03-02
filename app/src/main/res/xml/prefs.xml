@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/gmr">
+
+        <ListPreference android:title="@string/unt"
+            android:entries="@array/temp"
+            android:entryValues="@array/tempval"
+            android:defaultValue="Celsius"
+            android:key="@string/prefrenceTempUnit"
+            android:summary="@string/untv">
+        </ListPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

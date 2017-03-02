@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlowLight</item>
+    </style>
+
+
+    <style name="DetailTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlowLight</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+
+    <style name="OverFlowLight" parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_more_vert_white_24dp</item>
+    </style>
+
+    <style name="tlbr">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:elevation">@dimen/elevation</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="crdv">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="m1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsz</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

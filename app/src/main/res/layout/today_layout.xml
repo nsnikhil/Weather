@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/touch_selector"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        style="@style/crdv"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="3dp"
+        card_view:cardMaxElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/plac"
+                android:textSize="36dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/customListCityName"
+                android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="60dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/plac"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="22sp"
+                        android:id="@+id/customListItem"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/plac"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="72sp"
+                        android:id="@+id/customListItem3"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/plac"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="36sp"
+                        android:id="@+id/customListItem4"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="16dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:src="@mipmap/ic_launcher"
+                        android:id="@+id/customListImage"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="@string/plac"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center_horizontal"
+                        android:textSize="36sp"
+                        android:id="@+id/customListItem2"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

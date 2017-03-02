@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nexus.nsnik.weather.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        style="@style/tlbr"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/main_layt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <fragment
+            android:id="@+id/main_list"
+            android:name="com.nexus.nsnik.weather.lvfrag"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            tools:layout="@layout/list_vw" />
+
+        <FrameLayout
+            android:id="@+id/fragDetails"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

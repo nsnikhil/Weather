@@ -1,0 +1,61 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Weather</string>
+    <string name="noint">NO INTERNET</string>
+    <string name="nodata">NO DATA</string>
+    <string name="ok">OKAY</string>
+    <string name="plac">Place Holder</string>
+    <string name="rst">Refresh or Restart the app to see changes</string>
+    <string name="abt">This app is in very early stage, hence it dosnt have all the shiny feature but with time they will be added</string>
+    <string name="gmr">General</string>
+    <string name="ct">City</string>
+    <string name="ctc">City Codes</string>
+    <string name="aut">AutoSync</string>
+    <string name="atus">Off</string>
+    <string name="oth">Others</string>
+    <string name="nod">No of Days</string>
+    <string name="nodd">No of days weather you want to see</string>
+    <string name="unt">Unit</string>
+    <string name="untv">Temperature unit</string>
+    <string name="st">Settings</string>
+    <string name="abtt">About</string>
+    <string name="rfr">Refresh</string>
+    <string name="formatTemp" translatable="false"><xliff:g id="frmtt">%1.0f</xliff:g>\u00B0 </string>
+    <string name="cnt">Get cant into Details activity without internet</string>
+    <string-array name="cityCodes" translatable="false">
+        <item>Ghusuri</item>
+        <item>Mainpuri</item>
+        <item>Bagh Bazar</item>
+        <item>Kalimpang</item>
+        <item>Hastinapur</item>
+    </string-array>
+    <string-array name="cityvale" translatable="false">
+        <item>1271223</item>
+        <item>1264292</item>
+        <item>1277899</item>
+        <item>1268403</item>
+        <item>1270237</item>
+    </string-array>
+    <string name="bundleLatitude" translatable="false">bLat</string>
+    <string name="bundleLongitude" translatable="false">bLgo</string>
+    <string name="prefrenceCityName" translatable="false">ctyn</string>
+    <string name="prefrenceTempUnit" translatable="false">tunt</string>
+    <string name="prefrenceDarkMode" translatable="false">drkmd</string>
+    <string-array name="temp" translatable="false">
+        <item>Celsius</item>
+        <item>Farenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string-array name="tempval" translatable="false">
+        <item>Celsius</item>
+        <item>Farenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string name="sync_account_type" translatable="false">weather.nsnik.com</string>
+    <string name="content_authority" translatable="false">com.nexus.nsnik.weather</string>
+    <string name="pref_last_notification" translatable="false">last_notification </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="format_notification" translatable="false">
+    Forecast: <xliff:g id="condition">%1$s</xliff:g> High: <xliff:g id="high">%2$s</xliff:g> Low: <xliff:g id="low">%3$s</xliff:g>
+    </string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मौसम</string>
+    <string name="abt">इस बॉक्स में, बहुत ही प्रारंभिक चरण में है, इसलिए यह सब चमकदार सुविधा नहीं है, लेकिन समय के साथ वे जोड़ दिया जाएगा</string>
+    <string name="noint">कोई इंटरनेट नहीं</string>
+    <string name="ok">ठीक है</string>
+    <string name="rst">ताज़ा करें या एप्लिकेशन परिवर्तन देखने के लिए पुन: प्रारंभ करें</string>
+    <string name="atus">बंद</string>
+    <string name="aut">स्वतः सिंक</string>
+    <string name="ct">शहर</string>
+    <string name="ctc">शहर कोड</string>
+    <string name="gmr">सामान्य</string>
+    <string name="nod">दिनों की संख्या</string>
+    <string name="nodd">दिनों की कोई मौसम आप देखना चाहते हैं </string>
+    <string name="oth">अन्य लोग</string>
+    <string name="unt">इकाई</string>
+    <string name="untv">तापमान इकाई</string>
+    <string name="abtt">के बारे में</string>
+    <string name="rfr">ताज़ा करना</string>
+    <string name="st">सेटिंग्स</string>
+    <string name="cnt">"इंटरनेट के बिना विवरण गतिविधि में बिल्ली हो जाओ "</string>
+    <string name="nodata">कोई आकड़ा उपलब्ध नहीं है</string>
+    <string name="plac">प्लेसहोल्डर</string>
+</resources>
